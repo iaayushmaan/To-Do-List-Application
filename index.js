@@ -864,7 +864,7 @@ function createNewTask(
   });
 
   const descriptionParagraph = document.createElement("p");
-  if (isDescritionPresent === true) {
+  if (description !== "") {
     descriptionParagraph.className = "text-muted";
     descriptionParagraph.id = "description-at";
     descriptionParagraph.style.fontSize = "15px";
